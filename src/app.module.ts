@@ -13,16 +13,16 @@ import { CartModule } from './cart/cart.module';
     host: 'localhost',
     port: 5432,
     //---Development Only---//
-    username: 'postgres',
-    password: 'postgres',
-    database: 'hyperhire-book',
-    synchronize: true,
+    // username: 'postgres',
+    // password: 'postgres',
+    // database: 'hyperhire-book',
+    // synchronize: true,
     //---End of Development Only---//
     
     //---Production Only---//
-    // database: 'nanaspos_test_postgres',
-    // username: 'nanaspos_calvinadhikang',
-    // password: 'calvinadhikang02',
+    database: 'nanaspos_hyperhire',
+    username: 'nanaspos_calvinadhikang',
+    password: 'calvinadhikang02',
     //---End of Production Only---//
     
     entities: [__dirname + '/**/*.entity{.ts,.js}'],
